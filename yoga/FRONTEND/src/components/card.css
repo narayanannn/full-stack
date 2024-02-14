@@ -1,0 +1,35 @@
+.image {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 20px;
+    background-size: cover;
+    /* background-position: ; */
+}
+
+.image  {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image:hover  {
+    transform: scale(1.05);
+}
+.service{
+
+    background-image: url("https://cdn.openart.ai/stable_diffusion/267bfbfaa7c9a2c541dd354381806eb52b60d01a_2000x2000.webp");
+    
+}
+.event{
+    
+    background-image: url("https://c1.wallpaperflare.com/preview/595/736/904/frogs-figure-yoga-gymnastics.jpg");
+    background-color: rgba(255, 255, 255, 0.7);
+    
+}
+.event1{
+    
+    background-image: url("https://img.freepik.com/free-vector/gradient-international-day-yoga-illustration_23-2148926505.jpg?size=626&ext=jpg&ga=GA1.1.457435393.1689004695&semt=ais");
+    background-color: rgba(255, 255, 255, 0.171);
+}
